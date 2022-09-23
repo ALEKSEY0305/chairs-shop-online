@@ -1,0 +1,23 @@
+{
+  "name": "chairs-shop-online",
+  "version": "1.0.0",
+  "description": "1. git status 2. git add . 3. git commit - local note ( -m \"comment\") 4. git push origin (branch name)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEKSEY0305/chairs-shop-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALEKSEY0305/chairs-shop-online/issues"
+  },
+  "homepage": "https://github.com/ALEKSEY0305/chairs-shop-online#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
