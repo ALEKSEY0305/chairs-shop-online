@@ -24,4 +24,4 @@
     - info-block
     - callback-block
     - default-button
-3. highlight colors
+3. highlight colors 
