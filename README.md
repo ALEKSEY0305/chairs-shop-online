@@ -5,6 +5,9 @@
 3. git commit - local note ( -m "comment")
 4. git push origin (branch name)
 
+git. branch - checks the branch you are in
+git checkout (name of the branch)  - switches to another branch
+
 
 
 1. divide into blocks
@@ -25,3 +28,7 @@
     - callback-block
     - default-button
 3. highlight colors 
+
+
+npm run browsersync
+& - parent caller

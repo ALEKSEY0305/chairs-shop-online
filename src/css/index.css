@@ -14,3 +14,6 @@ a {
   color: #333333; }
   a:hover {
     text-decoration: underline; }
+
+.header-navigation {
+  background-color: #E5E5E5; }
