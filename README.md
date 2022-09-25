@@ -33,3 +33,4 @@ git checkout (name of the branch)  - switches to another branch
 
 npm run browsersync
 & - parent caller
+!important
