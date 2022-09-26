@@ -28,21 +28,18 @@ $input-search-height: 40px;
         color: $primary1;
         margin-left: 20px;
     }
-
-
+    
     &__search-block {
         display: flex;
         align-items: center;
         background: $input-search-background;
         border-radius: 40px; 
         padding: 0 20px;
-
     }
 
     &__search-icon {
         margin: 5px;
     }
-
 
     &__search-input {
         background: none;

@@ -138,3 +138,30 @@ a {
     padding: 80px 0; }
   .recently-watched-products__title {
     margin-bottom: 40px; }
+
+.super-product {
+  background-image: url(../assets/super-product/background.png);
+  color: #FFFFFF; }
+  .super-product__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 215px 0; }
+  .super-product__main-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%; }
+  .super-product__title {
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    color: #FFFFFF; }
+  .super-product__subtitle {
+    font-size: 1.4rem;
+    line-height: 2rem; }
+  .super-product__button {
+    background: transparent;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    width: 170px; }
+  .super-product__title, .super-product__subtitle {
+    margin-bottom: 55px; }
