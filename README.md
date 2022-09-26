@@ -11,7 +11,7 @@ git checkout (name of the branch)  - switches to another branch
 
 
 
-1. divide into blocks
+1. divide into blocks (modules)
     - header navigation
     - header
     - super-product
@@ -22,7 +22,7 @@ git checkout (name of the branch)  - switches to another branch
     - footer
     - copyright
 
-2. highlight elements
+2. highlight elements (common)
     - product-card
     - sponsor-item
     - info-block
