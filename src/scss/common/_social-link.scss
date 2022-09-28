@@ -1,0 +1,20 @@
+ $social-link-size: 45px;
+ $social-link-icon-size: 60%;
+
+ .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid $primary1;
+    border-radius: 50%;
+
+    width: $social-link-size;
+    height: $social-link-size;
+
+
+    &__icon{
+        width: $social-link-icon-size;
+        height: $social-link-icon-size;
+    }
+ }

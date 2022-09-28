@@ -134,6 +134,18 @@ a {
     width: 150px;
     height: 50px; }
 
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F13C6E;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px; }
+  .social-link__icon {
+    width: 60%;
+    height: 60%; }
+
 .header-navigation {
   background-color: #E5E5E5; }
   .header-navigation__link {
@@ -239,3 +251,19 @@ a {
     width: 25%;
     max-width: 25%;
     box-sizing: border-box; }
+
+.footer {
+  background: #FFFFFF; }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0; }
+  .footer__location-text {
+    font-size: 1.4rem;
+    line-height: 1.6rem; }
+  .footer__social-links {
+    display: flex;
+    align-items: center; }
+  .footer__social-link:not(:last-child) {
+    margin-right: 20px; }
