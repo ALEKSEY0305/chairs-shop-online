@@ -1,0 +1,71 @@
+$info-blog-input-text-color:#C4C4C4;
+$info-block-input-height: 35px;
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    color: $main-text-color;
+    background: $primary1;
+    padding: 35px 40px;
+
+    &__main-block {
+        display: flex;
+        flex-direction: column;
+        margin-right: 65px;
+    }
+
+    &__image-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__image {
+        color: $primary2;
+
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        
+
+    }
+
+    &__title,
+    &__subtitle {
+        margin-bottom: 25px;
+        color: $primary2;
+    }
+
+    &__input {
+        border-radius: 30px;
+        background: $primary2;
+        color: $info-blog-input-text-color;
+        height: $info-block-input-height;
+        padding: 0 25px;
+
+        border: none;
+        outline: none;
+        margin-top: 25px;
+        max-width: 225px;
+
+    }
+
+    &__button {
+        border-color: $primary2;
+        background: $primary1;
+        color: $main-text-color;  
+        max-width: 170px;  
+        margin-top: 25px;
+
+    }
+}
