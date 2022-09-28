@@ -267,3 +267,15 @@ a {
     align-items: center; }
   .footer__social-link:not(:last-child) {
     margin-right: 20px; }
+
+.copyright {
+  background: #EFEFEF; }
+  .copyright__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0; }
+  .copyright__text, .copyright__link {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #828282; }
