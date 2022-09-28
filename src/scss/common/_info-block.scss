@@ -19,11 +19,14 @@ $info-block-input-height: 35px;
         justify-content: center;
         align-items: center;
 
+        width: 50%;
+
     }
+    
 
     &__image {
+        width: 100%;
         color: $primary2;
-
     }
 
     &__title {
@@ -36,8 +39,6 @@ $info-block-input-height: 35px;
         font-weight: 400;
         font-size: 1.4rem;
         line-height: 2rem;
-        
-
     }
 
     &__title,
@@ -57,15 +58,13 @@ $info-block-input-height: 35px;
         outline: none;
         margin-top: 25px;
         max-width: 225px;
-
     }
-
+    
     &__button {
         border-color: $primary2;
         background: $primary1;
         color: $main-text-color;  
         max-width: 170px;  
         margin-top: 25px;
-
     }
 }

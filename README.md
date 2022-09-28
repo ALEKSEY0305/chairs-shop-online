@@ -8,6 +8,7 @@ control + c
 
 git. branch - checks the branch you are in
 git checkout (name of the branch)  - switches to another branch
+git pull origin (branch name) - для получения изменений с github
 
 
 
@@ -28,9 +29,10 @@ git checkout (name of the branch)  - switches to another branch
     - info-block
     - callback-block
     - default-button
+    - social-link
 3. highlight colors 
 
 
 npm run browsersync
 & - parent caller
-!important
+!important 
